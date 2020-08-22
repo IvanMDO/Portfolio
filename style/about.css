@@ -1,0 +1,76 @@
+@media (orientation: landscape){
+    .about{
+        background-image: url(./fotos/fondo1.jpg);
+        font-size: 24px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .aboutSection{
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 5%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .aboutDivs{
+        margin-bottom: 5%;
+    }
+    .aboutDivs h2{
+        margin-bottom: 2%;
+    }
+    .about b{
+        color: rgb(61, 161, 255);
+    }
+    .aplicaciones img{
+        width: 40px;
+        margin-bottom: 0px;
+        margin: 5px;
+    }
+}
+@media (orientation: portrait){
+    .about{
+        font-size: 20px;
+        background-color: rgb(24, 24, 24);
+    }
+    .aboutDivs{
+        margin-bottom: 5%;
+    }
+    .aboutDivs h2{
+        margin-bottom: 2%;
+    }
+    .about b{
+        color: rgb(0, 132, 255);
+    }
+    .aplicaciones img{
+        width: 30px;
+        margin: 5px;
+    }
+    .aboutSection{
+        border-top: 1px solid rgba(255, 255, 255, 0.568);
+        padding-top: 12%;
+        padding-bottom: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .perfilPortrait{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.568);
+        margin-bottom: 7%;
+        padding-bottom: 7%;
+        padding-top: 2%;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1000px) and (orientation: landscape){
+    .about{
+        font-size: 20px;
+    }
+    .aboutSection{
+        padding-top: 7%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .aplicaciones img{
+        width: 30px;
+    }
+}

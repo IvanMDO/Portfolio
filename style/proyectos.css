@@ -1,0 +1,85 @@
+@media (orientation: landscape){
+    .proyectosSection{
+        background-color:rgb(0, 0, 0, 0.5);
+        padding: 5%;
+    }
+}
+.proyectosDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.proyectosDiv div{
+    background-color: rgba(207, 207, 207, 0.89);
+    padding: 0;
+    margin: 2%;
+}
+.proyectos p{
+    color: black;
+}
+.proyectos h2{
+    margin-bottom: 5%;
+}
+.paginas{
+    border: 1px solid rgb(197, 197, 197);
+    width: 500px;
+}
+.iconoLenguaje{
+    width: 30px;
+}
+
+@media (orientation: portrait){
+    .proyectosDiv div, .paginas{
+        width: 100%;
+        border: none;
+        opacity: 1;
+    }
+    .proyectosDiv div{
+        margin-bottom: 5%;
+    }
+    .proyectos{
+        font-size: 20px;
+    }
+    .iconoLenguaje{
+        width: 25px;
+    }
+    .proyectosSection{
+        border-top: 1px solid rgba(255, 255, 255, 0.568);
+        background-color:rgb(24, 24, 24);
+        padding: 5%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+    }
+}
+@media (min-width: 500px) and (max-width:1000px) and (orientation: landscape){
+    .proyectos{
+        background-color:rgb(24, 24, 24);
+        font-size: 20px;
+    }
+    .proyectosSection{
+        padding: 5%;
+        padding-top: 7%;
+        padding-bottom: 10%;
+    }
+    .iconoLenguaje{
+        width: 25px;
+    }
+}
+@media (min-width: 1000px) and (orientation: landscape){
+    .proyectos{
+        background-image: url(./fotos/fondoProyecto.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-size: 24px;
+    }
+    .proyectosDiv div{
+        opacity: 0.8;
+        transition: opacity 300ms ease;
+    }
+    .proyectosDiv div:hover{
+        opacity: 1;
+    }
+}
+
